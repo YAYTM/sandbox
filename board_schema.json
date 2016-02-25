@@ -1,0 +1,10 @@
+{
+	"type": "object",
+	"properites": {
+		"object_type": { "type": "string" },
+		"team": { "type": "integer" },
+		"num_ships": { "type": "integer" },
+		"num_objects": { "type": "integer" },
+		"board": { "type": "list"},
+	}
+}
