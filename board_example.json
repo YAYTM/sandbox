@@ -1,0 +1,52 @@
+{
+    "board_height": 20,
+    "board_width": 20,
+    "obstacles": [
+        {
+            "__class__": "Obstacle",
+            "__module__": "obstacle",
+            "id": 1,
+            "obstacle_type": "Dolphin",
+            "position": [
+                5,
+                6,
+                4
+            ]
+        },
+        {
+            "__class__": "Obstacle",
+            "__module__": "obstacle",
+            "id": 2,
+            "obstacle_type": "Iceberg",
+            "position": [
+                10,
+                10,
+                0
+            ]
+        }
+    ],
+    "team1_battleship": [
+        1,
+        1,
+        0
+    ],
+    "team1_battleship_health": 100,
+    "team1_submarine": [
+        3,
+        4,
+        5
+    ],
+    "team1_submarine_health": 100,
+    "team2_battleship": [
+        10,
+        12,
+        0
+    ],
+    "team2_battleship_health": 100,
+    "team2_submarine": [
+        15,
+        15,
+        2
+    ],
+    "team2_submarine_health": 100
+}

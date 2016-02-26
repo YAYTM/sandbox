@@ -1,10 +1,16 @@
 {
 	"type": "object",
 	"properites": {
-		"object_type": { "type": "string" },
-		"team": { "type": "integer" },
-		"num_ships": { "type": "integer" },
-		"num_objects": { "type": "integer" },
-		"board": { "type": "list"},
+		"board_height": { "type": "integer" },
+		"board_width": { "type": "integer" },
+		"team1_battleship": { "type": "list" },
+		"team1_battleship_health": { "type": "integer" },
+		"team1_submarine": { "type": "list"},
+		"team1_submarine_health": { "type": "integer" },
+		"team2_battleship": { "type": "list" },
+		"team2_battleship_health": { "type": "integer" },
+		"team2_submarine": { "type": "list"},
+		"team2_submarine_health": { "type": "integer" },
+		"obstacles": { "type": "list"}
 	}
 }
