@@ -30,9 +30,5 @@ class Obstacle(object):
 	def get_obstacle_position(self):
 		return self.position
 
-	def __str__(self):
-		return "'id': " + str(self.id) + "\n'obstacle_type': " + \
-		            self.obstacle_type + "\n'position': " + str(self.position)
-
 ################################################################################
 ################################################################################

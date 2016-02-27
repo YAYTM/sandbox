@@ -1,4 +1,5 @@
 {
+    "board_depth": 10,
     "board_height": 20,
     "board_width": 20,
     "obstacles": [
@@ -25,6 +26,7 @@
             ]
         }
     ],
+    "sunk_ships": [],
     "team1_battleship": [
         1,
         1,

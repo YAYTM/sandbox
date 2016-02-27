@@ -3,6 +3,7 @@
 	"properites": {
 		"board_height": { "type": "integer" },
 		"board_width": { "type": "integer" },
+		"board_depth": { "type": "integer" },
 		"team1_battleship": { "type": "list" },
 		"team1_battleship_health": { "type": "integer" },
 		"team1_submarine": { "type": "list"},
@@ -11,6 +12,7 @@
 		"team2_battleship_health": { "type": "integer" },
 		"team2_submarine": { "type": "list"},
 		"team2_submarine_health": { "type": "integer" },
-		"obstacles": { "type": "list"}
+		"obstacles": { "type": "list"},
+		"sunk_ships": { "type": "list"}
 	}
 }
