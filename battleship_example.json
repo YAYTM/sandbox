@@ -1,9 +1,0 @@
-{
-	"id": -1,
-	"object_type": "ship",
-	"team": 1,
-	"ship_type": "battleship",
-	"weapon_type": "mine",
-	"current_health": 100,
-	"position": [0, 0]
-}
